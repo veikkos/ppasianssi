@@ -33,4 +33,5 @@ you can no longer place any cards from the deck.
 
 ### Playing
 
-Just tap space to draw a card. :) Key `R` resets the game. 
+Just tap Space or left mouse button to draw a card. :) Key `R` resets
+the game.

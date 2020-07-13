@@ -139,6 +139,9 @@ void GetInput(){
 
                 break;
             }
+            case SDL_MOUSEBUTTONDOWN:
+                cycle = true;
+                break;
             case SDL_QUIT:
             {
                 done = quitted;
