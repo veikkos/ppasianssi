@@ -1,5 +1,8 @@
 # PPasianssi solitaire game
 
+[![Build Status](https://api.travis-ci.org/veikkos/ppasianssi.svg?branch=master)](https://travis-ci.org/veikkos/ppasianssi)
+[![Latest release](http://img.shields.io/github/release/veikkos/ppasianssi.svg)](https://github.com/veikkos/ppasianssi/releases/latest)
+
 ![Cover](https://github.com/veikkos/ppasianssi/blob/master/cover.png)
 
 [**Try live browser version here!**](https://veikkos.github.io/ppasianssi-live/)
