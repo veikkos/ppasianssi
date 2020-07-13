@@ -31,6 +31,8 @@ Ace will reset the entire column to the top and ace is placed to the
 top. From next draws any value (naturally of same type) can be placed
 on top of the ace.
 
+Any value can be placed on top of King.
+
 You win if you can place all the cards to the table and you lose if
 you can no longer place any cards from the deck.
 
