@@ -2,6 +2,8 @@
 
 ![Cover](https://github.com/veikkos/ppasianssi/blob/master/cover.png)
 
+[**Try live browser version here!**](https://veikkos.github.io/ppasianssi-live/)
+
 PPasianssi is a solitaire game of mine which I also implemented for PC
 using SDL a long time ago. It has been since ported to SDL2.
 
