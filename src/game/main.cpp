@@ -9,6 +9,10 @@
 #include "table_blitter.h"
 #include "screen.h"
 
+#if defined(_MSC_VER) && !defined(_DEBUG)
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
+#endif
+
 #define LOOPS   1000
 
 #define FPS 60
