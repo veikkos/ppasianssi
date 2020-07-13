@@ -251,8 +251,14 @@ int main(int argc, char *argv[])
         framestarttime = SDL_GetTicks();
     }
 
+    if (renderer)
+        SDL_DestroyRenderer( renderer );
+
+    if (window)
+        SDL_DestroyWindow( window );
+
     if(screen)
-      SDL_FreeSurface( screen );
+        SDL_FreeSurface( screen );
 
     if(cards)
         SDL_FreeSurface( cards );
