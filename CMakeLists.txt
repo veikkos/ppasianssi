@@ -20,10 +20,11 @@ else()
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 endif()
 
+# Library
 file(GLOB SOURCES
     src/*.h src/*.cpp)
 
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_library(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} SYSTEM PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src
@@ -35,3 +36,13 @@ target_link_libraries(${PROJECT_NAME}
     ${SDL2_LIBRARY}
     ${SDL2_IMAGE_LIBRARIES}
     )
+
+# Game with GUI
+add_executable(${PROJECT_NAME}-gui src/game/main.cpp)
+
+target_link_libraries(${PROJECT_NAME}-gui ${PROJECT_NAME})
+
+# Simulation
+add_executable(${PROJECT_NAME}-simulation ${SOURCES} src/simulation/main.cpp)
+
+target_link_libraries(${PROJECT_NAME}-simulation ${PROJECT_NAME})
