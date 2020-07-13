@@ -29,6 +29,8 @@ on top of the ace.
 You win if you can place all the cards to the table and you lose if
 you can no longer place any cards from the deck.
 
+*Approximately 7.9 % of the games pass.*
+
 ### Playing
 
 Just tap space to draw a card. :) Key `R` resets the game. 
